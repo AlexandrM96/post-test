@@ -7,7 +7,7 @@ import { useState } from "react";
 import ReactPaginate from "react-paginate";
 
 const PostsPage = () => {
-  
+
   const [itemOffset, setItemOffset] = useState(0);
 
   const { data } = useGetPostsQuery("posts");
@@ -48,12 +48,8 @@ const PostsPage = () => {
           containerClassName={styles.btnPag}
           activeClassName={`${styles.breakLabel} ${styles.btnPagActive}`}
           pageClassName={styles.btnPagN}
-          pageLinkClassName={""}
           previousClassName={styles.btnPagL}
           nextClassName={styles.btnPagR}
-          previousLinkClassName={""}
-          nextLinkClassName={""}
-          breakLinkClassName={""}
           disabledClassName={"disabled"}
           renderOnZeroPageCount={null}
         />
