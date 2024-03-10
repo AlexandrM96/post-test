@@ -1,0 +1,27 @@
+.main {
+  width: 600px;
+
+  margin: 0 auto;
+}
+
+.info {
+  list-style-type: none;
+}
+
+.info li {
+  display: flex;
+}
+.info li span {
+  display: block;
+  font-size: 26px;
+}
+.info li span:first-child {
+  margin-right: 15px;
+  color: grey;
+  width: 80px;
+  text-align: end;
+}
+.info li span:last-child {
+  text-align: start;
+  width: 525px;
+}

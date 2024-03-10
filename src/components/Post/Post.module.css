@@ -1,0 +1,21 @@
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: white;
+  width: 500px;
+  height: 200px;
+  border-radius: 20px;
+  border: 1px solid grey;
+  margin-bottom: 30px;
+  text-decoration: none;
+}
+
+.main:hover {
+  box-shadow: 0 0 10px 5px rgba(221, 221, 221, 1);
+}
+
+.main_title {
+  color: black;
+  font-size: 25px;
+}
